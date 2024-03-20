@@ -77,7 +77,7 @@ client.on("messageCreate", async (message) => {
 
 *Thank you for reaching out to us! Your satisfaction is our priority.*`
         )
-        .setFooter({ text: `${message.guild.name} | Made with ❤️ by sparks.js`, iconURL: message.guild.iconURL() })
+        .setFooter({ text: `${message.guild.name} | Made with ❤️ by denzz.apk`, iconURL: message.guild.iconURL() })
         .setColor("#842abe");
 
       message.channel.send({
